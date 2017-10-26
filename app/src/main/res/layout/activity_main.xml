@@ -22,7 +22,7 @@
         android:layout_height="42dp"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="Name"
+        android:text=""
         android:layout_marginTop="7dp"
         app:layout_constraintTop_toBottomOf="@+id/textView"
         android:layout_marginLeft="0dp"
@@ -35,9 +35,11 @@
         android:layout_height="wrap_content"
         android:text="Tabuada do"
         app:layout_constraintTop_toTopOf="parent"
-        android:layout_marginTop="8dp"
-        android:layout_marginLeft="8dp"
-        app:layout_constraintLeft_toLeftOf="parent" />
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="0dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="@+id/editText2" />
 
     <EditText
         android:id="@+id/editText6"
@@ -45,7 +47,7 @@
         android:layout_height="wrap_content"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="Name"
+        android:text=""
         app:layout_constraintTop_toTopOf="@+id/editText2"
         android:layout_marginTop="8dp"
         app:layout_constraintBottom_toBottomOf="@+id/editText2"
@@ -59,8 +61,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Ate"
-        tools:layout_editor_absoluteX="193dp"
-        android:layout_marginBottom="7dp"
-        app:layout_constraintBottom_toTopOf="@+id/editText6" />
+        android:layout_marginBottom="6dp"
+        app:layout_constraintBottom_toTopOf="@+id/editText6"
+        app:layout_constraintRight_toLeftOf="@+id/editText6"
+        android:layout_marginRight="0dp" />
 
 </android.support.constraint.ConstraintLayout>
